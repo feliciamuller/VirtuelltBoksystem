@@ -20,7 +20,7 @@ namespace VirtuelltBoksystem
         public override void SkrivUtInfo() 
         {
             base.SkrivUtInfo();
-            Console.WriteLine($"Filstorlek: {Filstorlek} - URL {DownloadURL}");
+            Console.WriteLine($"Filstorlek: {Filstorlek} - URL: {DownloadURL}");
         } 
     }
 }
