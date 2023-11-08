@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VirtuelltBoksystem
 {
-    internal abstract class Media
+    public abstract class Media
     {
         public abstract void SpelaUpp();
 
