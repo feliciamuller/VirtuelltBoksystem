@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VirtuelltBoksystem
 {
-    public class Bok
+    public class Bok : Media
     {
         // Egenskaper
         public string Titel { get; set; }
@@ -29,5 +29,20 @@ namespace VirtuelltBoksystem
             Console.WriteLine("Författare: " + Författare);
             Console.WriteLine("ISBN: " + ISBN);
         }
+
+        public override void SpelaUpp()
+        {
+            Console.WriteLine("Spelar upp" + Titel);
+        }
+
+        public override void VisaInfo()
+        {
+            Console.WriteLine("Bokdetaljer:");
+            Console.WriteLine("Titel: " + Titel);
+            Console.WriteLine("Författare: " + Författare);
+            Console.WriteLine("ISBN: " + ISBN);
+        }
+
+
     }
 }

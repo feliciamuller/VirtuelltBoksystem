@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<Media> media = new List<Media>() { new Bok ("Bibeln", "Jesus", "666")};
         }
     }
 }
