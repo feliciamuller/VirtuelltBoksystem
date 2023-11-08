@@ -11,7 +11,7 @@ namespace VirtuelltBoksystem
         protected int Filstorlek { get; set; }
         protected string DownloadURL { get; set; }
 
-        public E_bok( int filstorlek, string downloadURL)
+        public E_bok(string titel, string författare, string isbn, int filstorlek, string downloadURL) : base(titel, författare, isbn)
         {
             Filstorlek = filstorlek;
             DownloadURL = downloadURL;
