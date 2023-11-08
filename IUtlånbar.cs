@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace VirtuelltBoksystem
 {
-    internal class Test
+    internal interface IUtlånbar
     {
+
+        public void LånaUt();
+
+        public void Återlämna();
     }
 }
